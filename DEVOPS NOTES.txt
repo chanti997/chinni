@@ -1,0 +1,247 @@
+DevOps is a software engineering culture and practice that aims at unifying software development and software operation. The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management
+ 
+what is devops?
+- devops is not a tool, devops is culture (or) process.  
+ - it is a process of continuous development, continuous build, continuous test, continuous release the software faster & reliable  with automation tools.
+ - it is a combination of development & operations.
+ - this automation process is hapend between the development & IT Teams.
+
+Q)why we need devops?
+ - main culture of devops is collaboration between teams (development & operations).
+ - we can achieve the our goal fast & reliably.
+ - to understand devops culture try to understand the previous models.
+
+
+- every software company to develop an application (or) software it has 2 main teams.
+1)development
+2)operations (testing, monitoring,infrastructure)
+Development:
+-----------
+- development team develop the application with some tools.
+ eg: java based website
+ - front end by UI team (html, CSS, JAVASCRIPT, JQUARY, ANGULARJS, REACTJS)
+ - back end by JAVA developers (server side)
+ - DB admins give access of DATABASE to the developers.
+ - all people together develop an website.
+ - integration the code.
+ - unit test the code (developer self test).
+ - for another process need to move the code into another environment (Testing, QA, etc..)  (developers not doing this)
+IT Team (operatons):
+-------------------
+- IT Team is setup the required environment to the Development, Testing, QA, Pre-production, Production.
+ eg: set up infrastructure for java website application.
+ - setup the hardware
+ - setup the platform (WINDOWS, LINUX, etc..)
+ - setup the required applications for devlopers such JAVA, JAVA compiler, Tomcat, Databases, etc...
+ - they move the code from one environment to another.
+ - they monitor the infrastructure, etc..
+ - they test the code.
+
+Tradational development life cycle:
+-----------------------------------
+- tradationally to develop the software, waterfall model is their.
+Water Fall Model:
+-----------------
+- It is a tradational SDLC(software development life cycle).
+- to develop an application some linear steps are their.
+  
+  requirment  -- gather information, what is purpose, documentation & planning
+       |
+    design    -- setup hardware & software
+       |
+  implementation -- actual coding
+       |
+  verification   -- Integration
+       |
+  maintaince    -- deploy to customer
+
+- if any update is required you need to design this cycle again.
+- no return here.
+- bugs identify late.
+- it takes months to complete a phase, for whole cycle takes min 2 years.
+- for any changes start from 1st stage.
+
+Agile Method:
+-------------
+- It is a SDLC(software development life cycle) into multiple iterations.
+
+     ---- 1)planning  --
+     |      |
+     |   2)analysis
+ 5)Testing     
+             |     |     |
+  4)build  --3)design   -- 
+
+1)plan for what you need
+2)analysis your planning
+3)design  (actual coding)
+4)build (unit testing & building)
+5)testing (integration and testing)
+
+- here we break the entire application into small pieces.
+- we can develop each piece in one iteration.
+- we can complete each iteration with in less time (min. 2 weeks)
+
+- These models are only at development stage only.
+- if the code is moving into the another environment the code maybe fail.
+- due to infrastructure, versions of software, coding issues, testing problem ,etc...
+- here which team raise the issue is not found.
+- teams are pointing each other for that issues.
+- to deliver the product to the customers with prevent the mistakes Quality assurance is one way.
+- but still we have problem to overcome this DEVOPS culture is very useful.
+
+Q)what is Devops?
+ - devops is not a tool, devops is culture (or) process.  
+ - it is a process of continuous development, continuous build, continuous test, continuous release the software faster & reliabile with automation           tools.
+ - this automation process is hapend between the development & IT Teams.
+
+Q)why we need devops?
+ - main culture of devops is collaboration between teams (development & operations).
+ - we can achieve the our goal fast & reliably
+ - to understand devops culture try to understand the previous models.
+
+
+Advantages of DEVOPS:
+--------------------
+- software building & deployment with fast rate.
+- application maintainence & bug fixing easy.
+- release new features and versions of the applications in less time.
+- higher product quality, faster productivity rate, increased customer satisfaction, more revenue and thus more profits.
+- every tool is input of another tool.
+- we can get the feedback in this process.
+
+
+
+
+SECOND PART 
+
+DevOps is a software engineering culture and practice that aims at unifying software development and software operation. The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management
+
+Q)what is Devops?
+ - devops is not a tool, devops is culture (or) process.  
+ - it is a process of continuous development, continuous build, continuous test, continuous release the software faster & reliabily with automation           tools.
+ - this automation process is happend between the development & IT Teams.
+
+Q)why we need devops?
+ - main culture of devops is collaboration between teams (development & operations).
+ - we can achieve the our goal fast & reliably
+ - to understand devops culture try to understand the previous models.
+
+
+Advantages of DEVOPS:
+--------------------
+- software building & deployment with fast rate.
+- apllication maintaince & bug fixing easy.
+- release new features and versions of the applications in less time.
+- higher product quality, faster productivity rate, increased customer satisfaction, more revenue and thus more profits.
+- every tool is input of another tool.
+- we can get the feedback in this process.
+
+
+TOOLS involved in Devops Life-Cycle:
+------------------------------------
+- Linux
+- shell scripting
+- git - SCM tool
+- ant,maven - building tool
+- jenkins - CI/CD tool
+- tomcat - platform to run a java application
+- ansible/chef  - configuration management tool for infrastructure
+- docker - container management for run containers
+- kubernates  - orchistration tool for automation
+- nagios -- continuous monitoring
+
+
+
+-------------------------------------------------- GIT INTRODUCTION --------------------------------------------------
+
+
+Centralized version control system (CVCS) uses a central server to store all files and enables team collaboration. But the major drawback of CVCS is its single point of failure, i.e., failure of the central server. Unfortunately, if the central server goes down for an hour, then during that hour, no one can collaborate at all. And even in a worst case, if the disk of the central server gets corrupted and proper backup has not been taken, then you will lose the entire history of the project. Here, distributed version control system (DVCS) comes into picture.
+
+DVCS clients not only check out the latest snapshot of the directory but they also fully mirror the repository. If the server goes down, then the repository from any client can be copied back to the server to restore it. Every checkout is a full backup of the repository. Git does not rely on the central server and that is why you can perform many operations when you are offline. You can commit changes, create branches, view logs, and perform other operations when you are offline. You require network connection only to publish your changes and take the latest changes.
+
+Free and open source
+Git is released under GPL’s open source license. It is available freely over the internet. You can use Git to manage property projects without paying a single penny. As it is an open source, you can download its source code and also perform changes according to your requirements.
+
+Fast and small
+As most of the operations are performed locally, it gives a huge benefit in terms of speed. Git does not rely on the central server; that is why, there is no need to interact with the remote server for every operation. The core part of Git is written in C, which avoids runtime overheads associated with other high-level languages. Though Git mirrors entire repository, the size of the data on the client side is small. This illustrates the efficiency of Git at compressing and storing data on the client side.
+
+Implicit backup
+The chances of losing data are very rare when there are multiple copies of it. Data present on any client side mirrors the repository, hence it can be used in the event of a crash or disk corruption.
+
+Security
+Git uses a common cryptographic hash function called secure hash function (SHA1), to name and identify objects within its database. Every file and commit is check-summed and retrieved by its checksum at the time of checkout. It implies that, it is impossible to change file, date, and commit message and any other data from the Git database without knowing Git.
+
+No need of powerful hardware
+In case of CVCS, the central server needs to be powerful enough to serve requests of the entire team. For smaller teams, it is not an issue, but as the team size grows, the hardware limitations of the server can be a performance bottleneck. In case of DVCS, developers don’t interact with the server unless they need to push or pull changes. All the heavy lifting happens on the client side, so the server hardware can be very simple indeed.
+
+Easier branching
+CVCS uses cheap copy mechanism, If we create a new branch, it will copy all the codes to the new branch, so it is time-consuming and not efficient. Also, deletion and merging of branches in CVCS is complicated and time-consuming. But branch management with Git is very simple. It takes only a few seconds to create, delete, and merge branches.
+
+
+git config --global user.name "chanti"
+git config --global user.email "chantivallabhi97@gmail.com"
+git config --global core.editor "vim"
+git config --global color.ui true
+
+=========================== BRANCHES ======================================= BRANCH IS NOTHING BUT COLLECTION OF COMMITS - SERIES OF COMMITS ALONG WITH THE DIR/FILES.
+
+
+
+The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the master branch. This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase. It also means the master branch will never contain broken code, which is a huge advantage for continuous integration environments.
+
+Encapsulating feature development also makes it possible to leverage pull requests, which are a way to initiate discussions around a branch. They give other developers the opportunity to sign off on a feature before it gets integrated into the official project. Or, if you get stuck in the middle of a feature, you can open a pull request asking for suggestions from your colleagues. The point is, pull requests make it incredibly easy for your team to comment on each other’s work.
+
+The Git Feature Branch Workflow is a composable workflow that can be leveraged by other high-level Git workflows. We discussed other Git workflows on the Git workflow overview page. Git Feature Branch Workflow is branching model focused, meaning that it is a guiding framework for managing and creating branches. Other workflows are more repo focused. The Git Feature Branch Workflow can be incorporated into other workflows. The Gitflow, and Git Forking Workflows traditionally use a Git Feature Branch Workflow in regards to their branching models.
+
+How it works
+
+The Feature Branch Workflow assumes a central repository, and master represents the official project history. Instead of committing directly on their local master branch, developers create a new branch every time they start work on a new feature. Feature branches should have descriptive names, like animated-menu-items or issue-#1061. The idea is to give a clear, highly-focused purpose to each branch. Git makes no technical distinction between the master branch and feature branches, so developers can edit, stage, and commit changes to a feature branch.
+ 
+
+In addition, feature branches can (and should) be pushed to the central repository. This makes it possible to share a feature with other developers without touching any official code. Since master is the only “special” branch, storing several feature branches on the central repository doesn’t pose any problems. Of course, this is also a convenient way to back up everybody’s local commits. The following is a walk-through of the life-cycle of a feature branch.
+
+On this branch, edit, stage, and commit changes in the usual fashion, building up the feature with as many commits as necessary. Work on the feature and make commits like you would any time you use Git. When ready, push your commits, updating the feature branch on Bitbucket.
+
+
+
+
+git branch
+
+* represents present working directory.
+
+HOW TO ADD AND COMMIT FILE/DIRE IN SINGLE STEP????????????
+git commit -am "<commit name>"
+NOTE : above command is applicable only for exsisting files , not for newly created files , if we create new file and use above command it will through an error to you.
+
+
+The git rm command can be used to remove individual files or a collection of files. The primary function of git rm is to remove tracked files from the Git index. Additionally, git rm can be used to remove files from both the staging index and the working directory. There is no option to remove a file from only the working directory. The files being operated on must be identical to the files in the current HEAD. If there is a discrepancy between the HEAD version of a file and the staging index or working tree version, Git will block the removal. This block is a safety mechanism to prevent removal of in-progress changes.
+
+Suppose you need to move or rename a file. You may use a combination of git rm on the old file and git add on the new file, or you may use git mv directly. Given a repository with a file named stuff that you want to rename newstuff,
+
+
+
+
+
+========================================GIT IGNORED =========================================
+Ignored files are tracked in a special file named .gitignore that is checked in at the root of your repository. There is no explicit git ignore command: instead the .gitignore file must be edited and committed by hand when you have new files that you wish to ignore. .gitignore files contain patterns that are matched against file names in your repository to determine whether or not they should be ignored.
+
+Git ignore rules are usually defined in a .gitignore file at the root of your repository. However, you can choose to define multiple .gitignore files in different directories in your repository. Each pattern in a particular .gitignore file is tested relative to the directory containing that file. However the convention, and simplest approach, is to define a single .gitignore file in the root. As your .gitignore file is checked in, it is versioned like any other file in your repository and shared with your teammates when you push. Typically you should only include patterns in .gitignore that will benefit other users of the repository.
+
+
+
+*.php
+*.obj
+*.class
+*.png
+[abc].php
+
+------------------------------------------------------------ GIT STASH ---------------------------------------------------------------------
+
+
+
+The command saves your local modifications away and reverts the working directory to match the HEAD commit. The modifications stashed away by this command can be listed with git stash list , inspected with git stash show , and restored (potentially on top of a different commit) with git stash apply .
+
+git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
+
+
